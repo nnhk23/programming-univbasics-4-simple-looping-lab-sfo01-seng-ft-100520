@@ -15,5 +15,9 @@ def loop_message_n_times (message, n)
 end
 
 def output_array (message)
-  puts output_array.join()
+  i = 0 
+  while output_array[i] do
+    puts output_array[i]
+    i += 1 
+  end
 end 
