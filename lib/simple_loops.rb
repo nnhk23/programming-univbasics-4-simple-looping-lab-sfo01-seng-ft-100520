@@ -23,10 +23,9 @@ def output_array (message)
 end 
 
 def return_string_array (array)
-  string = ""
   i = 0 
   while i < array.length do
-    puts array[i]
+    puts array[i].to_s
     i += 1 
   end
 end
