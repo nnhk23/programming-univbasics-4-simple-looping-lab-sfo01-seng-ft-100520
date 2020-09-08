@@ -13,3 +13,7 @@ def loop_message_n_times (message, n)
     i += 1 
   end
 end
+
+def output_array (message)
+  puts output_array.join("")
+end 
