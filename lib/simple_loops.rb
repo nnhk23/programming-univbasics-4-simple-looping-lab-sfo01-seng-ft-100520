@@ -1,3 +1,4 @@
+require 'pry'
 def loop_message_five_times (message)
   i = 0 
   while i < 5 do
@@ -18,6 +19,7 @@ def output_array (message)
   i = 0 
   while output_array[i] do
     puts output_array[i]
-    i += 1 
+    i += 1
+    binding.pry 
   end
 end 
