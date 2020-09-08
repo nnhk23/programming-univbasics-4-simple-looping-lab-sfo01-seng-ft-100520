@@ -28,5 +28,6 @@ def return_string_array (array)
   while i < array.length do
     puts string = array[i]
     i += 1 
+    string
   end
 end
