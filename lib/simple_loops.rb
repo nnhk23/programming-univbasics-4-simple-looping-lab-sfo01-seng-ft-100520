@@ -21,3 +21,7 @@ def output_array (message)
     i += 1
   end
 end 
+
+def return_string_array (array)
+  puts array
+end
