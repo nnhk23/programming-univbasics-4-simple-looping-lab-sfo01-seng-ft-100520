@@ -15,5 +15,5 @@ def loop_message_n_times (message, n)
 end
 
 def output_array (message)
-  puts output_array.join("")
+  puts output_array.join()
 end 
